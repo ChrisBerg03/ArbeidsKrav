@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Invitasjons svar</title>
+        <link rel="stylesheet" href="/css/common.css" />
+        <link rel="stylesheet" href="/css/main.css" />
+        <link rel="icon" href="/images/birthdayHat.png" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <a href="index.html">
+                    <img
+                        id="birthdayIcon"
+                        src="/images/birthdayHat.png"
+                        alt="Bursdags hatt"
+                    />
+                </a>
+            </div>
+        </header>
+        <main class="card">
+            <h1 class="subtitle">Let us know if you can make it!</h1>
+            <form method="POST" class="invitationForm">
+                <label for="name">Navn:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                />
+
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="_replyto"
+                    placeholder="ola.nordmann@example.com"
+                />
+
+                <button type="submit" class="invitasjonBtn">
+                    Send svaret ditt
+                </button>
+            </form>
+        </main>
+        <footer><p>© 2025 Bursdags invitasjon - Ola Nordmann</p></footer>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive, "Brush Script MT", sans-serif;
+}
+
+#birthdayIcon {
+    width: 40px;
+    height: 40px;
+}
+
+header {
+    background: linear-gradient(178deg, #74c7f7 0%, #e26767 85%);
+    width: 100dvw;
+    padding: 0.5rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background: linear-gradient(89deg, #74c7f7 0%, #e26767 85%);
+    width: 100dvw;
+    padding: 1rem 0;
+    position: sticky;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: url("/images/birthday.avif");
+    background-size: contain;
+    width: 100dvw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+    max-width: 1400px;
+}
